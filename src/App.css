@@ -1,0 +1,169 @@
+*{
+  margin: 0;
+  padding: 0;
+ 
+}
+.Header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: sticky;
+  top: 0;
+    background-color: white;
+ padding: 2% 0;
+ 
+  
+}
+.Header p{
+  padding-left: 3%;
+  padding-top: .5%;
+  font-weight: 600;
+  letter-spacing: 3px;
+  font-size: larger;
+}
+
+ul{
+  display: flex;
+  
+  list-style: none;
+  margin-right: 13%;
+ 
+}
+.link{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+
+}
+
+li{
+  padding: 6%;
+}
+
+ul li:hover{
+  background-color: #ccc;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.Poster {
+  padding: 0 3% ;
+  position: relative;
+  
+}
+
+.Poster img{
+  width: 100%; 
+  
+
+}
+.Poster h1{
+  width: 50%;
+  position: absolute;
+  margin-left: 3%;
+  bottom: 10%;
+ 
+  
+}
+.about{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.about p h1 ,h3{
+  text-align: center;
+  margin-bottom: 3%;
+}
+.about p{
+  
+  padding-right: 4%;
+}
+.para{
+  margin: 0;
+  padding-top: 4%;
+  padding-right: 0;
+  
+}
+.about img{
+  width: 80%;
+ 
+}
+.about{
+  padding: 3%;
+  letter-spacing: 2px;
+}
+.ourmenu{
+  display: grid;
+  width: 94%;
+  grid-template-columns: 50% 50%;
+  padding: 3%;
+  
+}
+.ourmenu h3{
+  text-align: left;
+  letter-spacing: 2px;
+}
+.head{
+text-align: center;
+text-decoration: underline;
+
+}
+.para1{
+  padding-bottom: 10%;
+}
+.img{
+  
+  width: 100%;
+ 
+}
+
+.contact{
+  letter-spacing: 4px;
+padding: 3%;
+}
+.contact b{
+  display: flex;
+  margin: 2%  0;
+}
+.contact input{
+  display: flex;
+  flex-direction: column;
+  margin: 2% 0;
+  width: 80%;
+  padding: 1%;
+  border-top: none ;
+  border-left: none ;
+  border-right:none ; 
+  font-size: larger;
+}
+button{
+  padding: 1%;
+  margin-right: 2%;
+  border-radius: 15px;
+}
+.footer{
+  padding: 3%;
+  background-color: #ccc;
+}
+hr{
+  width: 90%;
+  margin: 3%;
+}
+ 
+@media screen and (max-width:800px){
+  ul{
+    display: none;
+  }
+  .about{
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .about img{
+    width: 100%;
+
+  }
+  .Header p{
+    letter-spacing: 5px;
+  }
+ 
+  
+}
