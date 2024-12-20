@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/catering-website/static/css/main.77c85f03.css",
+    "main.js": "/catering-website/static/js/main.02da9b1f.js",
+    "static/js/453.ed3810f9.chunk.js": "/catering-website/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/catering-website/index.html",
+    "main.77c85f03.css.map": "/catering-website/static/css/main.77c85f03.css.map",
+    "main.02da9b1f.js.map": "/catering-website/static/js/main.02da9b1f.js.map",
+    "453.ed3810f9.chunk.js.map": "/catering-website/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.77c85f03.css",
+    "static/js/main.02da9b1f.js"
+  ]
+}
